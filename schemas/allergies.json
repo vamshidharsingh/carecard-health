@@ -1,0 +1,26 @@
+{
+  "name": "allergies",
+  "description": "Patient-reported allergy annotations; no diagnosis is generated.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "substance": {
+      "type": "string"
+    },
+    "reaction": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
