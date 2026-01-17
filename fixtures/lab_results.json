@@ -1,0 +1,11 @@
+[
+  {
+    "id": "lab-1",
+    "patient_id": "patient-1",
+    "test_name": "Demo observation",
+    "value": "12",
+    "unit": "demo",
+    "reference_range": "Example only",
+    "tested_on": "2026-10-01"
+  }
+]
