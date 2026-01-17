@@ -1,0 +1,26 @@
+{
+  "name": "documents",
+  "description": "Metadata only; uploads and medical files are deliberately not accepted.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "title": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "report",
+        "letter",
+        "other"
+      ]
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
