@@ -1,0 +1,30 @@
+{
+  "name": "consents",
+  "description": "Scoped sharing grants. Card issuance checks an active, unexpired emergency_card grant.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "emergency_card",
+        "records"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "granted",
+        "revoked"
+      ]
+    },
+    "expires_on": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
