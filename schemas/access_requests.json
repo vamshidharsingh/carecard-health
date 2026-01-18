@@ -1,0 +1,30 @@
+{
+  "name": "access_requests",
+  "description": "Manual requests for record-sharing review.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "requester": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "emergency_card",
+        "records"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "denied"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
