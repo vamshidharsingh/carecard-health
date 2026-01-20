@@ -1,0 +1,9 @@
+[
+  {
+    "id": "plan-1",
+    "patient_id": "patient-1",
+    "title": "Demo follow-up plan",
+    "notes": "Review the synthetic record.",
+    "status": "active"
+  }
+]
