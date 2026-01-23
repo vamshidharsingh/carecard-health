@@ -1,0 +1,23 @@
+{
+  "name": "encounters",
+  "description": "Historical consultation summaries.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "provider_id": {
+      "type": "string",
+      "ref": "providers"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
