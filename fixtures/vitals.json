@@ -1,0 +1,10 @@
+[
+  {
+    "id": "vital-1",
+    "patient_id": "patient-1",
+    "kind": "heart_rate",
+    "value": 72,
+    "unit": "bpm",
+    "recorded_at": "2026-10-01T09:00:00+00:00"
+  }
+]
