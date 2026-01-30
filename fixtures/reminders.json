@@ -1,0 +1,9 @@
+[
+  {
+    "id": "reminder-1",
+    "patient_id": "patient-1",
+    "message": "Review demo card consent",
+    "due_on": "2026-11-01",
+    "status": "pending"
+  }
+]
