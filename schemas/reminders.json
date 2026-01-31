@@ -1,0 +1,26 @@
+{
+  "name": "reminders",
+  "description": "Local task reminders; the app does not send messages.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "message": {
+      "type": "string"
+    },
+    "due_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "done"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
