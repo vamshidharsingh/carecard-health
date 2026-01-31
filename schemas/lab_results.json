@@ -1,0 +1,28 @@
+{
+  "name": "lab_results",
+  "description": "Fictional laboratory observations with textual reference ranges.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "test_name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "reference_range": {
+      "type": "string"
+    },
+    "tested_on": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
