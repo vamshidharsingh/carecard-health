@@ -1,0 +1,19 @@
+{
+  "name": "providers",
+  "description": "Fictional healthcare provider directory.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "registration": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "registration"
+  ]
+}
