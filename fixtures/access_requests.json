@@ -1,0 +1,9 @@
+[
+  {
+    "id": "access-1",
+    "patient_id": "patient-1",
+    "requester": "Demo clinic",
+    "scope": "records",
+    "status": "pending"
+  }
+]
