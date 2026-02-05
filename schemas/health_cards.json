@@ -1,0 +1,28 @@
+{
+  "name": "health_cards",
+  "description": "Local card issuance registry; card display rechecks consent each time.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "card_number": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "revoked"
+      ]
+    },
+    "issued_on": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": false,
+  "unique": [
+    "card_number"
+  ]
+}
