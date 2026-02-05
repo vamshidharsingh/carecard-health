@@ -1,0 +1,9 @@
+[
+  {
+    "id": "allergy-1",
+    "patient_id": "patient-1",
+    "substance": "Demo allergen",
+    "reaction": "Synthetic example reaction",
+    "severity": "mild"
+  }
+]
