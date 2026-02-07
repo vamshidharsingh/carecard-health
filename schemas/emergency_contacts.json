@@ -1,0 +1,21 @@
+{
+  "name": "emergency_contacts",
+  "description": "Contacts included in consented emergency card summaries.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "name": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
