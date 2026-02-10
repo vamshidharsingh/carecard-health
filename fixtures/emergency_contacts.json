@@ -1,0 +1,9 @@
+[
+  {
+    "id": "contact-1",
+    "patient_id": "patient-1",
+    "name": "Taylor Demo",
+    "relationship": "Friend",
+    "phone": "000-000-0001"
+  }
+]
