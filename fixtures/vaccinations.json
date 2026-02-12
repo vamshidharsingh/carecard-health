@@ -1,0 +1,9 @@
+[
+  {
+    "id": "vaccination-1",
+    "patient_id": "patient-1",
+    "name": "Demo vaccine record",
+    "administered_on": "2025-01-01",
+    "batch": "SYNTHETIC"
+  }
+]
