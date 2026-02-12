@@ -1,0 +1,31 @@
+{
+  "name": "vitals",
+  "description": "Manually recorded observations without automated clinical interpretation.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "heart_rate",
+        "temperature",
+        "systolic_bp"
+      ]
+    },
+    "value": {
+      "type": "number",
+      "minimum": 0
+    },
+    "unit": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "datetime"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
