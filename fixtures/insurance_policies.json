@@ -1,0 +1,9 @@
+[
+  {
+    "id": "policy-1",
+    "patient_id": "patient-1",
+    "provider": "Demo insurer",
+    "policy_reference": "DEMO-100",
+    "expires_on": "2027-12-31"
+  }
+]
