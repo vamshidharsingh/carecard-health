@@ -1,0 +1,9 @@
+[
+  {
+    "id": "document-1",
+    "patient_id": "patient-1",
+    "title": "Demo report",
+    "kind": "report",
+    "reference": "SYNTHETIC-REPORT"
+  }
+]
