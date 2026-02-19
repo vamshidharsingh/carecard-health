@@ -1,0 +1,22 @@
+{
+  "name": "insurance_policies",
+  "description": "Masked policy metadata without insurance verification.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "policy_reference": {
+      "type": "string"
+    },
+    "expires_on": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
