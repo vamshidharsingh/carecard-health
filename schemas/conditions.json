@@ -1,0 +1,26 @@
+{
+  "name": "conditions",
+  "description": "Clinician-entered problem list metadata.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "resolved"
+      ]
+    },
+    "recorded_on": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
