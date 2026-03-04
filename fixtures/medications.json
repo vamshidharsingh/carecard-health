@@ -1,0 +1,10 @@
+[
+  {
+    "id": "medication-1",
+    "patient_id": "patient-1",
+    "name": "Synthetic example only",
+    "dosage": "Not a prescription",
+    "frequency": "Recorded manually",
+    "status": "stopped"
+  }
+]
