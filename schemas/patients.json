@@ -1,0 +1,32 @@
+{
+  "name": "patients",
+  "description": "Fictional patient identities used throughout the demo.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date"
+    },
+    "blood_group": {
+      "type": "string",
+      "enum": [
+        "A+",
+        "A-",
+        "B+",
+        "B-",
+        "AB+",
+        "AB-",
+        "O+",
+        "O-"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
