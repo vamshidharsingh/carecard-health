@@ -1,0 +1,9 @@
+[
+  {
+    "id": "condition-1",
+    "patient_id": "patient-1",
+    "name": "Synthetic example condition",
+    "status": "resolved",
+    "recorded_on": "2026-01-01"
+  }
+]
