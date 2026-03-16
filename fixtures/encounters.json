@@ -1,0 +1,9 @@
+[
+  {
+    "id": "encounter-1",
+    "patient_id": "patient-1",
+    "provider_id": "provider-1",
+    "summary": "Synthetic introductory visit.",
+    "date": "2026-10-01"
+  }
+]
