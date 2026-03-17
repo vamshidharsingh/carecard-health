@@ -1,0 +1,22 @@
+{
+  "name": "vaccinations",
+  "description": "Immunization history entered by the demo operator.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "name": {
+      "type": "string"
+    },
+    "administered_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "batch": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
