@@ -1,0 +1,31 @@
+{
+  "name": "appointments",
+  "description": "Provider reservations with exact-slot conflict protection.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "provider_id": {
+      "type": "string",
+      "ref": "providers"
+    },
+    "starts_at": {
+      "type": "string",
+      "format": "datetime"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "booked",
+        "cancelled",
+        "completed"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": []
+}
