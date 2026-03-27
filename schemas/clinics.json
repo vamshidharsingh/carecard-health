@@ -1,0 +1,17 @@
+{
+  "name": "clinics",
+  "description": "Clinic contact and location metadata.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
