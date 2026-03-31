@@ -1,0 +1,9 @@
+[
+  {
+    "id": "consent-1",
+    "patient_id": "patient-1",
+    "scope": "emergency_card",
+    "status": "granted",
+    "expires_on": "2099-12-31"
+  }
+]
