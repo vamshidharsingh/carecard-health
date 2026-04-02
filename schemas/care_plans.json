@@ -1,0 +1,25 @@
+{
+  "name": "care_plans",
+  "description": "Manual care planning notes; no treatment recommendation engine.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "title": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "complete"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
