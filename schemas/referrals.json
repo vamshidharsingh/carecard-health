@@ -1,0 +1,26 @@
+{
+  "name": "referrals",
+  "description": "Provider-to-provider referral tracking.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "provider_id": {
+      "type": "string",
+      "ref": "providers"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "complete"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
