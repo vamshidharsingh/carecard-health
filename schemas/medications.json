@@ -1,0 +1,28 @@
+{
+  "name": "medications",
+  "description": "Manual medication record. The app does not prescribe or verify interactions.",
+  "fields": {
+    "patient_id": {
+      "type": "string",
+      "ref": "patients"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dosage": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "stopped"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
