@@ -1,0 +1,9 @@
+[
+  {
+    "id": "referral-1",
+    "patient_id": "patient-1",
+    "provider_id": "provider-1",
+    "specialty": "Demo specialty",
+    "status": "pending"
+  }
+]
